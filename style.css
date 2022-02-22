@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Comment Style  */
+button {
+  height: 48px;
+  border-radius: 5px;
+  background-color: #ff5959;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  padding: 0px 50px;
+}
+span {
+  font-size: 50px;
+  line-height: 30px;
+  color: orange;
+  font-weight: 400;
+}
+/* Comment Style  */
+
+/* banner start =====================  */
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_left {
+  padding: 40px;
+}
+
+.banner_right div {
+  max-width: 800px;
+  text-align: center;
+}
+.banner_right img {
+  width: 86%;
+}
+
+#banner h1 {
+  font-size: 50px;
+  line-height: 30px;
+  color: #333333;
+  font-weight: 400;
+  border-left: 3px solid green;
+  padding: 5px;
+}
+
+#banner p {
+  width: 471px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
+  font-weight: 400;
+}
+
+/* banner end ======= */
+
+/* Mission_START--------------------------*/
+section {
+  text-align: center;
+}
+section h1 {
+  font-size: 48px;
+  line-height: 70px;
+  color: #13103a;
+  font-weight: 700;
+  text-align: center;
+}
+
+#mission {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mission div {
+  text-align: start;
+  margin: 0 20px;
+  padding: 15px;
+  border-radius: 26px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.a {
+  background-color: #c9dfec;
+}
+.b {
+  background: #8d10e06e;
+}
+.c {
+  background-color: #ffdab9;
+}
+
+#mission div h5 {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 600;
+}
+
+#mission div p {
+  font-size: 16px;
+  color: #424242;
+  font-weight: 400;
+  padding: 5px;
+}
+
+#mission img {
+  max-width: 150px;
+  width: 100%;
+}
+/* ---------Mission_End--------*/
+
+/* --- devolop_starT---------*/
+#devolop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 130px 5px;
+}
+
+.left {
+  width: 35%;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  width: 50%;
+  margin: 40px;
+}
+.right h1 {
+  font-size: 36px;
+  color: #333333;
+  font-weight: 700;
+}
+.right p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #3e3e3e;
+  font-weight: 400;
+}
+
+/* ---------- devolop_starT------------ */
+
+
+/* -----------Gobal_start ---------- */
+#Global {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 130px 5px;
+}
+
+.global_left {
+  width: 50%;
+  margin: 40px;
+}
+
+.global_right {
+  width: 35%;
+}
+
+.global_right img {
+  width: 100%;
+}
+
+.global_left h1 {
+  font-size: 36px;
+  color: #333333;
+  font-weight: 700;
+}
+.global_left p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #3e3e3e;
+  font-weight: 400;
+}
+
+/* -------------------Gobal end-------------------- */
+
+
+.bg {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/* ------- */
+
+
+ /* Corona_start------------------------- */
+#corona {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 5px;
+}
+
+.left img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+footer h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.foo {
+  color: red;
+}
